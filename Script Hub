@@ -19,6 +19,9 @@ sectionA:Button("Break In Story", function()
 sectionA:Button("Break In 2", function() 
     loadstring(game:HttpGet("https://rawscripts.net/raw/Break-In-2-(Story)-AX-Hub-33105"))()
 end)
+sectionA:Button("Survive And Kill The Killers", function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/F347-FB/Roblox/main/Loader"))()
+end)
 
 window:Divider("------------------------------")
 
