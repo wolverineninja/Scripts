@@ -20,10 +20,6 @@ sectionA:Button("Break In 2", function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Break-In-2-(Story)-AX-Hub-33105"))()
 end)
 
-sectionA:Button("Merge Tower Defence", function() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/wolverineninja/Scripts/refs/heads/main/Inf%20Energy%20Merge%20TD"))()
-end)
-
 window:Divider("------------------------------")
 
 local sectionB = window:Section("Universal Scripts")
