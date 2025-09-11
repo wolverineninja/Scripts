@@ -9,7 +9,7 @@ local sectionA = window:Section("Scripts")
 sectionA:Divider("-------------------------------------------------------")
 
 sectionA:Button("99 Nights In The Forest", function() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/loader.lua", true))()
 end)
 
 sectionA:Button("Break In Story", function() 
