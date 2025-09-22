@@ -19,6 +19,11 @@ sectionA:Button("Break In Story", function()
 sectionA:Button("Break In 2", function() 
     loadstring(game:HttpGet("https://rawscripts.net/raw/Break-In-2-(Story)-AX-Hub-33105"))()
 end)
+
+sectionA:Button("Forsaken", function() 
+    getfenv().ADittoKey="NOL_FRERKEY_THISISFOR"---Put in key
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Syndromehsh/NOL/refs/heads/main/Nolsaken"))()
+end)
 window:Divider("------------------------------")
 
 local sectionB = window:Section("Universal Scripts")
